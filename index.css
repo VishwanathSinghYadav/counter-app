@@ -1,0 +1,43 @@
+button {
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    color: white;
+    background: darkred;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:active {
+    box-shadow: 0 0 0 white;
+    margin: 5px 2px;
+}
+
+button:hover {
+    background: darkgreen;
+    size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+
+body {
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
