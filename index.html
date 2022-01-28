@@ -7,16 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Counter App</title>
-
 </head>
 
 <body>
-    <center><strong><h1>COUNTER APP</h1></strong></center>
+
+    <strong><h1>COUNTER APP</h1></strong>
     <br>
     <hr>
-    <center><strong><h2>COUNT : </h2>
-        <h3 id="count-id">0</h3></strong></center>
+    <h2>COUNT : </h2>
+    <div id="count-id">0</div>
+    <br><br>
+    <button id="increment-bt" onclick="increment()">INCRIMENT</button>
+    <br>
+    <div id="save-id"></div>
+    <br><br>
+    <button id="saveCount-bt" onclick="saveCount()">SAVE COUNT</button>
+    <br><br><br>
+    <button id="reset-bt" onclick="reset()">RESET</button>
     <script src="index.js"></script>
-    <center><button id="increment-bt" onclick="increment()">INCRIMENT</button></center </body>
+</body>
+
 
 </html>
