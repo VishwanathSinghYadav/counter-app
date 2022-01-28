@@ -3,7 +3,7 @@ let countEl = document.getElementById("count-id");
 
 function increment() {
     count += 1;
-    countEl.innerHTML = count;
+    countEl.textContent = count;
 };
 
 let saveCountVar = [];
@@ -11,12 +11,12 @@ let saveEl = document.getElementById("save-id");
 
 function saveCount() {
     saveCountVar.push(count);
-    saveEl.innerHTML = saveCountVar;
+    saveEl.textContent = saveCountVar;
 };
 
 function reset() {
     count = 0;
     saveCountVar = [];
-    countEl.innerHTML = count;
-    saveEl.innerHTML = saveCountVar;
+    countEl.textContent = count;
+    saveEl.textContent = saveCountVar;
 }
